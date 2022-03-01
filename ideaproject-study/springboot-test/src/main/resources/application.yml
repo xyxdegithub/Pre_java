@@ -1,0 +1,21 @@
+server:
+  port: 8888
+
+  #配置试图解析器
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: utf-8
+
+    #配置数据库
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/information?useUnicode=true&serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+
+    #配置mapper
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+

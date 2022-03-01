@@ -1,0 +1,43 @@
+package util;
+
+import java.util.Scanner;
+
+public class Util {
+	private static Scanner sc = new Scanner(System.in);
+	private static readKeyBoard(int limit,boolean blankReturn) {
+		
+	}
+
+	public static char readMenuSelection() {
+
+		return;
+	}
+
+	public static char readChar() {
+
+	}
+
+	public static char readChar(char defaultValue) {
+
+	}
+
+	public static int readInt() {
+
+	}
+
+	public static int readInt(int defaultValue) {
+
+	}
+
+	public static int readString(int limit) {
+
+	}
+
+	public static int readInt(int limit, String defaultValue) {
+
+	}
+
+	public static char readConfirmSelection() {
+
+	}
+}

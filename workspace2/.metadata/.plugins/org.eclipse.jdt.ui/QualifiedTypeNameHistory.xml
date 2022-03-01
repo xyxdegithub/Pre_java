@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.sound.midi.SysexMessage"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="bean.Customer"/>
+<fullyQualifiedTypeName name="oop.FibonacciTest"/>
+<fullyQualifiedTypeName name="extendstest.Person"/>
+<fullyQualifiedTypeName name="extendstest.Student"/>
+<fullyQualifiedTypeName name="polymorphism.Person"/>
+<fullyQualifiedTypeName name="polymorphism.Man"/>
+<fullyQualifiedTypeName name="test.Bank"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="test.Test"/>
+<fullyQualifiedTypeName name="test.Test.Size"/>
+<fullyQualifiedTypeName name="salarysystem.Employee"/>
+<fullyQualifiedTypeName name="salarysystem.SalariedEmployee"/>
+<fullyQualifiedTypeName name="salarysystem.HourlyEmployee"/>
+<fullyQualifiedTypeName name="salarysystem.MyDate"/>
+<fullyQualifiedTypeName name="proxy.NetWorkTest"/>
+<fullyQualifiedTypeName name="proxy.ProxyServer"/>
+<fullyQualifiedTypeName name="proxy.NetWork"/>
+<fullyQualifiedTypeName name="proxy.Server"/>
+<fullyQualifiedTypeName name="interfacetest.B"/>
+<fullyQualifiedTypeName name="interfacetest.demo1"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.SystemException"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="exceptiontest.EcmDef"/>
+<fullyQualifiedTypeName name="exceptiontest.EcDef"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.text.ParseException"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

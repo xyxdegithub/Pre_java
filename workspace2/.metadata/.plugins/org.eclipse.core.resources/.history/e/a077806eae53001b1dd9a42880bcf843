@@ -1,0 +1,9 @@
+package service;
+
+import bean.Customer;
+
+public class CustomerList {
+	//保存客户对象的数组
+    private Customer[] customers;
+    private int total;
+}

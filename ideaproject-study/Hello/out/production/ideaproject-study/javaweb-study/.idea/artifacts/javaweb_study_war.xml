@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="javaweb-study:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>javaweb-study</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="javaweb-study-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="javaweb-study:war exploded" />
+    </root>
+  </artifact>
+</component>

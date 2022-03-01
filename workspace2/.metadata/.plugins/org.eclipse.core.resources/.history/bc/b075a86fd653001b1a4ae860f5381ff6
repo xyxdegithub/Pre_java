@@ -1,0 +1,14 @@
+package service;
+
+import bean.Customer;
+
+ /**
+ * @author xyx
+ * 2021年1月11日 上午9:12:34
+ */
+public class CustomerList {
+	//保存客户对象的数组
+    private Customer[] customers;
+    private int total;
+    
+}

@@ -1,0 +1,38 @@
+package view;
+
+import bean.Customer;
+import service.CustomerList;
+
+/**
+ * @author xyx
+ * 2021年1月11日 下午3:47:30
+ */
+public class CustomerView {
+	private CustomerList customers = new CustomerList(10);
+
+	public CustomerView() {
+		Customer cust = new Customer("警察", "110", "110@gmail", '男', 22);
+		customers.addCustomer(cust);
+	}
+
+	public void enterMainMenu() {
+
+	}
+
+	private void addNewCustomer() {
+
+	}
+
+	private void modifyCustomer() {
+
+	}
+
+	private void deleteCustomer() {
+
+	}
+
+	private void listAllCustomers() {
+
+	}
+
+}

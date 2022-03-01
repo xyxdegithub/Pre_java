@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;List&apos; to &apos;list&apos;&#x0D;&#x0A;- Original project: &apos;datastruct&apos;&#x0D;&#x0A;- Original element: &apos;datastruct/src/List&apos;&#x0D;&#x0A;- Renamed element: &apos;datastruct/src/list&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;List&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;List" name="list" qualified="false" references="true" stamp="1609376229237" textual="false" version="1.0"/>
+</session>

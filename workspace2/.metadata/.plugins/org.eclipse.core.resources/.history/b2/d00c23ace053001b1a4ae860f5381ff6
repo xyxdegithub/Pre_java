@@ -1,0 +1,31 @@
+package view;
+
+import bean.Customer;
+import service.CustomerList;
+
+public class CustomerView {
+   private CustomerList customers=new CustomerList(10);
+	public CustomerView() {
+		Customer cust=new Customer("张三", '010-56253825', "abc@email.com",男, "010-56253825",
+				);
+		customers.addCustomer(cust);
+	}
+	public void enterMainMenu() {
+		
+	}
+	private void addNewCustomer() {
+		
+	}
+	private void modifyCustomer() {
+		
+	}
+	private void deleteCustomer() {
+		
+	}
+	private void listAllCustomers() {
+		
+	}
+
+	
+
+}

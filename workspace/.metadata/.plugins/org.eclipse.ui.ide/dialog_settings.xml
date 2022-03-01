@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\Java\workspace\Pattern"/>
+			<item value="E:\Java\workspace\HelloWorld"/>
+			<item value="E:\HelloWorld"/>
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Sunshine\Downloads\36b438c50227d62600f09da19f32d86c\手把手实现Java图书管理系统（附源码）【368634】图书管理系统简介\项目源码\LibrarySystem"/>
+			<item value="E:\JavaCode\HelloWorld"/>
+			<item value="C:\Users\Sunshine\Desktop\StudentScore"/>
+			<item value="C:\Users\Sunshine\Desktop\EasyMall2"/>
+			<item value="F:\Javaeedemo"/>
+			<item value="C:\Users\Sunshine\Desktop\03-javaWeb商城源码\Shop"/>
+			<item value="C:\Users\Sunshine\Desktop\03-javaWeb商城源码"/>
+			<item value="C:\Users\Sunshine\Desktop\mywebproject"/>
+			<item value="E:\Java\workspace\mywebproject1"/>
+			<item value="D:\BaiduNetdiskDownload\20、音乐网站(JSP+SERVLET)\音乐网站(JSP+SERVLET)\code\PowerMusic"/>
+			<item value="E:\资料\JavaWeb教材源码"/>
+			<item value="C:\Users\Sunshine\Desktop\jdbcDemo3"/>
+			<item value="C:\Users\Sunshine\Desktop\awardGame2"/>
+			<item value="C:\Users\Sunshine\Desktop\shootGame"/>
+			<item value="C:\Users\Sunshine\Desktop\077682-01\《设计模式（第2版）》源代码\DesignPatterns"/>
+			<item value="E:\Java\workspace\MyJspProject"/>
+			<item value="E:\Java\workspace\MyPro01"/>
+			<item value="E:\Java\workspace\Game"/>
+			<item value="E:\Java\workspace\StudentSystem"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

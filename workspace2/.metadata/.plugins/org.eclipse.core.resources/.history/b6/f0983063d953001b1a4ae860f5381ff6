@@ -1,0 +1,36 @@
+package service;
+
+import bean.Customer;
+
+ /**
+ * @author xyx
+ * 2021年1月11日 上午9:12:34
+ */
+public class CustomerList {
+	//保存客户对象的数组,列表
+    private Customer[] customers;
+    private int total=0;
+    public CustomerList(int totalCustomer) {
+    	customers =new Customer[totalCustomer];
+    }
+    public boolean addCustomer(Customer customer) {
+    	
+    }
+    public boolean replaceCustomer(int index, Customer cust) {
+    	
+    }
+    public boolean deleteCustomer(int index) {
+    	
+    }
+    public Customer[] getAllCustomers() {
+    	
+    }
+    public Customer getCustomer(int index) {
+    	
+    }
+    public int getTotal() {
+    	
+    }
+
+    
+}

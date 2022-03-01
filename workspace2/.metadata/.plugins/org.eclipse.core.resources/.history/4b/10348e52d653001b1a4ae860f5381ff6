@@ -1,0 +1,77 @@
+package util;
+
+import java.util.Scanner;
+
+/**
+ * @author xyx 2021年1月11日 上午11:48:16 逻辑
+ */
+public class Util {
+	private static Scanner sc = new Scanner(System.in);
+
+//这方法怎么理解
+	private static String readKeyBoard(int limit, boolean blankReturn) {
+		String line = "";
+
+		while (sc.hasNextLine()) {
+			line = sc.nextLine();
+			if (line.length() == 0) {
+				if (blankReturn)
+					return line;
+				else
+					continue;
+			}
+
+			if (line.length() < 1 || line.length() > limit) {
+				System.out.print("输入长度（不大于" + limit + "）错误，请重新输入：");
+				continue;
+			}
+			break;
+		}
+
+		return line;
+	}
+
+	public static char readMenuSelection() {
+		char c;
+		while (true) {
+			String s = readKeyBoard(1, false);
+			c = s.charAt(0);
+			if (c != '1' && c != '2' && c != '3' && c != '4' && c != '5') {
+				System.out.println("选择错误,请重新输入!");
+			} else {
+				break;
+			}
+		}
+		return c;
+	}
+
+	public static char readChar() {
+		String s = readKeyBoard(1, false);
+		return s.charAt(0);
+	}
+
+	public static char readChar(char defaultValue) {
+String s=readKeyBoard(1, true);
+return (s.length()==0)?defaultValue:s.charAt(0);
+	}
+
+	public static int readInt() {
+
+	}
+
+	public static int readInt(int defaultValue) {
+
+	}
+
+	public static int readString(int limit) {
+
+	}
+
+	public static int readInt(int limit, String defaultValue) {
+
+	}
+
+	public static char readConfirmSelection() {
+
+	}
+}

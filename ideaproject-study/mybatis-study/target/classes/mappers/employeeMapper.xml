@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mappers.employeeMapper">
+    <!--查询嵌套,多表查询-->
+    <resultMap id="EmployeeDept" type="entity.Employee">
+        <!--association关联属性 property属性名 javaType属性类型 column在多的一方的
+        表中的列名-->
+        <association property="dept" column="dId"
+                     javaType="entity.Dept" select="getDept"/>
+    </resultMap>
+
+    <select id="findAllEmployees" resultMap="EmployeeDept">
+        select *
+        from employee
+    </select>
+
+    <select id="getDept" resultType="entity.Dept">
+        select *
+        from dept
+        where id = #{id}
+    </select>
+</mapper>

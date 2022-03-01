@@ -1,0 +1,29 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i1 = Integer.MAX_VALUE;
+		int i2 = Integer.MIN_VALUE;
+		System.out.println(i1);
+		System.out.println(i2);
+
+		long a = Long.MAX_VALUE;
+		long b = Long.MIN_VALUE;
+		System.out.println(a);
+		System.out.println(b);
+
+		byte b1 = Byte.MAX_VALUE;
+		byte b2 = Byte.MIN_VALUE;
+		System.out.println(b1);
+		System.out.println(b2);
+
+		int xx = 365;
+		byte b3 = (byte) xx;
+		System.out.println(xx);
+
+		// 先取值再自增
+		// 先自增再取值
+	}
+
+}

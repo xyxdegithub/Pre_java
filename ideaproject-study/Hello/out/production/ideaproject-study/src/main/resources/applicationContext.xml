@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd
+">
+    <context:annotation-config/>
+
+    <bean id="str1" class="dao.UserDaoImpl"></bean>
+    <bean id="str2" class="dao.UserDaoImpl2"></bean>
+    <bean id="service" class="aop1.UserServiceImpl">
+        <property name="userDao" ref="str2"/>
+    </bean>
+
+    <!--注入测试-->
+    <!--p命名空间注入属性的值  -->
+    <bean id="address" class="bean.Address" p:address="上海外滩">
+        <!--<property name="address" value="北京中南海"/>-->
+    </bean>
+    <bean id="student" class="bean.Student">
+        <property name="name" value="张楠"/>
+
+        <property name="address" ref="address"/>
+
+        <property name="books">
+            <array>
+                <value>红楼梦</value>
+                <value>三国演义</value>
+                <value>水浒传</value>
+                <value>西游记</value>
+            </array>
+        </property>
+
+        <property name="card">
+            <map>
+                <entry key="1" value="建设银行"></entry>
+                <entry key="2" value="中国银行"/>
+                <entry key="3" value="中国工商银行"/>
+            </map>
+        </property>
+
+        <property name="hobbys">
+            <list>
+                <value>听歌</value>
+                <value>看足球</value>
+                <value>运动</value>
+            </list>
+        </property>
+        <property name="games">
+            <set>
+                <value>LOL</value>
+                <value>CSGO</value>
+                <value>PUBG</value>
+            </set>
+        </property>
+        <property name="info">
+            <props>
+                <prop key="学号">1705</prop>
+                <prop key="年龄">18</prop>
+                <prop key="年级班级">三年二班</prop>
+            </props>
+        </property>
+        <property name="wife">
+            <null></null>
+        </property>
+    </bean>
+
+    <!--自动注解测试-->
+    <bean id="cat1" class="bean.Cat"></bean>
+    <bean id="dog" class="bean.Dog"></bean>
+    <bean id="person" class="bean.Person"></bean>
+
+
+</beans>
+
+

@@ -1,0 +1,24 @@
+#tomcat端口号设置
+server:
+  port: 8888
+
+#mybatis设置
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.xyx.bean
+
+#数据库连接相关设置
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot?useUnicode=true&serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+#视图解析器设置
+  mvc:
+    view:
+      prefix: classpath:/templates/
+      suffix: .html
+  resources:
+    chain:
+      cache: true

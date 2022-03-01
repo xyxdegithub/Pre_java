@@ -1,0 +1,65 @@
+package util;
+
+import java.util.Scanner;
+
+/**
+ * @author xyx
+ * 2021年1月11日 上午11:48:16
+    *   逻辑
+ */
+public class Util {
+	private static Scanner sc = new Scanner(System.in);
+
+	private static String readKeyBoard(int limit,boolean blankReturn) {
+		String line = "";
+
+        while (sc.hasNextLine()) {
+            line = sc.nextLine();
+            if (line.length() == 0) {
+                if (blankReturn) return line;
+                else continue;
+            }
+
+            if (line.length() < 1 || line.length() > limit) {
+                System.out.print("输入长度（不大于" + limit + "）错误，请重新输入：");
+                continue;
+            }
+            break;
+        }
+
+        return line;
+    }
+
+	public static char readMenuSelection() {
+
+		return;
+	}
+
+	public static char readChar() {
+
+	}
+
+	public static char readChar(char defaultValue) {
+
+	}
+
+	public static int readInt() {
+
+	}
+
+	public static int readInt(int defaultValue) {
+
+	}
+
+	public static int readString(int limit) {
+
+	}
+
+	public static int readInt(int limit, String defaultValue) {
+
+	}
+
+	public static char readConfirmSelection() {
+
+	}
+}
